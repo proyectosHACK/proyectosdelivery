@@ -1,0 +1,657 @@
+body{
+    background-color: rgb(49, 41, 65);
+}
+header{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.37);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-color: rgba(20, 12, 13, 0.404);
+    border-style: solid;
+    border-width: 2px;
+}
+header:hover{
+    background-color: rgba(0, 0, 0, 0.473);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-color: rgba(220, 20, 60, 0.555);
+    border-style: solid;
+    border-width: 2px;
+}
+.fondo{
+    background-image: url("img/local.jpg");
+}
+
+.barra{
+    width: 80px;
+    background-image: url("img/hos.jpg");
+    color: ivory;
+    border-style: none;
+}
+.barra option{
+    background-color: deeppink;
+}
+
+.ventana1{
+    display: inline-flex;
+    padding-top: 5px;
+    padding-block: 5px;
+}
+.V_menu1{
+    display: inline-flex;
+}
+.nombre_empresa{
+    padding-top: 20px;
+}
+.menuss ul li{
+    list-style: none;
+}
+ul , ol{
+    list-style: none;
+}
+.menuss ul li ul li a{
+    text-decoration: none;
+    background-color: black;
+    color: azure;
+    float: left;
+    min-width: 200px;
+}
+.menuss ul li ul{
+    display: none;
+    position: absolute;
+}
+.menuss ul li:hover > ul{
+    display: block;
+}
+.logo_empresa{
+    padding-top: 4px;
+    margin-right: 4px;
+    margin-left: 4px;
+    border-radius: 20%;
+}
+.nombre_empresa{
+    margin-left: 5px;
+    margin-right: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(245, 235, 235);
+    width: 150px;
+    text-align: center;
+    
+}
+.my{
+    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: initial;
+}
+.onio{
+    color: crimson;
+    font-style: unset;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 20px;
+}
+.buscador{
+    background-color: rgba(20, 22, 22, 0.363);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: var(--cr-input-underline-border-radius, 0);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 60px;
+    padding-bottom: 3px;
+    display: inline-flex;
+    margin-top: 20px;
+    border-color: rgba(4, 15, 15, 0.048);
+}
+.buscadores{
+    margin-left: 5px;
+    width: 400px;
+    height: 30px;
+    font-family: monospace;
+    font-style: inherit;
+    font-size: 1em;
+    background-color: coral;
+    border: none;
+    color: rgb(245, 235, 235);
+    
+}
+.opcion{
+    margin-left: 80%;
+}
+.datos{
+    margin-left: 5px;
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.icono_buscador{
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.microfono{
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.menu2{
+    display: inline-flex;
+    margin-left: 80px;
+}
+.dis1{
+    text-align: center;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: rgba(44, 40, 40, 0.527);
+    border-left-color: rgba(44, 40, 40, 0.527);
+    width: 180px;
+    height: 100px;
+}
+
+.dis2{
+    text-align: center;
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: rgba(44, 40, 40, 0.527);
+    width: 180px;
+    height: 100px;
+}
+.dis2 button{
+    background-color: darkblue;
+    border: none;
+    height: 30px;
+    padding-block: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 30px;
+    color: crimson;
+    font-style: inherit;
+}
+.dis1 button{
+    background-color: darkblue;
+    border: none;
+    height: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 30px;
+    padding-block: 5px;
+    color: crimson;
+}
+.dis1 img{
+    border-radius: 20px;
+}
+.dis2 img{
+    border-radius: 20px;
+}
+/*EFECTOS DEL COLOR DE BUTTON*/
+/*
+.buttonIS{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: blanchedalmond;
+    outline: 2px solid #fff;
+    transition: color 1s;
+}*/
+.buttonIS:hover {
+    color: rgb(250, 242, 243);
+    background-color: crimson;
+}
+/*
+.buttonIS::before{
+    content: '';
+    position:absolute;
+    top:0;
+    left: -50px;
+    width: 0px;
+    height: 100%;
+    background-color: crimson;
+    transition: skewX(35deg);
+    z-index: -1;
+    transition: width 1s;
+}
+
+.buttonIS:hover::before{
+    width: 10%;
+}
+*/
+
+.datos{
+    color: aqua;
+}
+.datos:hover{
+    margin-top: 20px;
+    margin-left: -55px;
+    z-index: 1  ;
+    width: 200px;
+    height: 150px;
+    font-family: cursive;
+    font-size: 1em;
+    background-color: rgba(0, 255, 255, 0.308);
+    color: aliceblue;
+    position: absolute;
+    text-align: left; 
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;  
+}
+.m2{
+    text-align: center;
+}
+.m3{
+    display: inline-flex;
+}
+
+/* footer*/
+/* imagen deplagable*/
+
+.carousel {
+    width: 1150px;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-block: 2px;
+    margin: 0 auto;
+    display: flex;
+    border-style: double;
+    border-color: rgb(4, 15, 15);
+    border-width: 5px;
+    background-color:rgba(13, 3, 22, 0.568);
+}
+
+#imagen {
+    width: 1150px;
+    height: 600px;
+    background-size: cover;
+    display: inline-flex;
+}
+#retroceder{
+    background-color: rgba(196, 195, 195, 0);
+    width: 50px;
+    height: 40px;
+    margin-top: 270px;
+    border-style: none;
+}
+#avanzar{
+    background-color: rgba(0, 0, 0, 0);
+    width: 60px;
+    height: 40px;
+    margin-left: 1100px;
+    margin-top: 270px;
+    border-style: none;
+    position: absolute;
+}
+.controles{
+    margin-top: 140px;
+    margin-left: 100pxpx;
+    display: inline-flex;
+}
+#play{
+    background-color: black;
+    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+}
+#stop{
+    background-color: black;
+    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*Descripcion del product A*/
+.mProducto{
+    display: inline-flex;
+    /*position: fixed; para posecion relativa*/
+    animation: forwards;
+    margin-left: 10px;
+    margin-right: 100px;
+    padding-top: 50px;
+}
+#descripcionProductos1{
+    background-color: rgba(0, 0, 0, 0.479);
+    width: 200px;
+    padding-left: 3px;
+    padding-top: 2px;
+    padding-block: 3px;
+    text-align: left;
+    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 10px;
+    border-color: rgba(77, 7, 44, 0.507);
+    border-style: solid;
+    border-width: 1px;
+}
+#descripcionProductos1:hover{
+    border-color: rgba(194, 13, 88, 0.555);
+}
+.detallesProducto{
+    background-color: rgba(0, 0, 0, 0.479);
+    width: 230px;
+    padding-left: 3px;
+    padding-top: 2px;
+    padding-block: 3px;
+    text-align: left;
+    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 500px;
+    border-color: rgba(77, 7, 44, 0.507);
+    border-style: solid;
+    border-width: 1px;
+}
+.detallesProducto:hover{
+    border-color: rgba(194, 13, 88, 0.555);;
+}
+.tex{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 10px;
+    font-style: oblique;
+}
+
+/**/
+.imgDesplegable{
+
+    padding-top: 20px;
+}
+
+.img_avanzar{
+    padding-top: 200px;
+}
+.img_retroceder{
+    padding-top: 200px;
+}
+.center{
+    text-align: center;
+}
+/*texto en movimiento*/
+.ss{
+    display: inline-flex;
+    background-color: rgba(12, 11, 11, 0.219);
+    width: 600px;
+    height: 50px;
+    margin-top: 10px;
+    padding-block: 20px;
+    padding-top: 0px;
+    margin-left: 30px;
+    padding-left: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: aqua;
+   
+}
+.s{
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: initial;
+}
+#texmovimiento{
+    width: 570px;
+}
+.titolo{
+    padding-top: 14px;
+}
+
+/*mostrar productos en foma aleatorios*/
+
+
+
+/*  5 seciones de tiendas */
+/*Ofertas espesiales*/
+footer{
+    background-color: rgba(0, 0, 0, 0.842);
+}
+.productos_oferta{
+    display: inline-flex;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-block: 20px;
+}
+
+.img1 img{
+    width: 200px;
+    height: 210px;
+    color: red;
+    margin-right: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-top: 10px;
+    padding-left: 5px;
+    
+}
+.img2 img{
+    width: 200px;
+    height: 210px;
+    color: red;
+    margin-right: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-top: 10px;
+    padding-left: 5px;
+    
+}
+.img3 img{
+    width: 200px;
+    height: 210px;
+    color: red;
+    margin-right: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-top: 10px;
+    padding-left: 5px;
+    
+}
+.img4 img{
+    width: 200px;
+    height: 210px;
+    color: red;
+    margin-right: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-top: 10px;
+    padding-left: 5px;
+    
+}
+.img5 img{
+    width: 200px;
+    height: 210px;
+    color: red;
+    margin-right: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-top: 10px;
+    padding-left: 5px;
+    
+}
+
+.img1{
+    width: 210px;
+    height: 400px;
+    background-color: rgba(39, 38, 38, 0.144);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-color: rgba(220, 20, 60, 0.534);
+    border-style: solid;
+    border-width: 2px;
+}
+.img1:hover{
+    border-color: rgba(240, 248, 255, 0.74);
+
+}
+
+.img2{
+    width: 210px;
+    height: 400px;
+    background-color: rgba(39, 38, 38, 0.144);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-color: rgba(220, 20, 60, 0.534);
+    border-style: solid;
+    border-width: 2px;
+    margin-left: 20px;
+}
+.img2:hover{
+    border-color: rgba(240, 248, 255, 0.74);
+
+}
+
+.img3{
+    width: 210px;
+    height: 400px;
+    background-color: rgba(39, 38, 38, 0.144);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-color: rgba(220, 20, 60, 0.534);
+    border-style: solid;
+    border-width: 2px;
+    margin-left: 20px;
+}
+.img3:hover{
+    border-color: rgba(240, 248, 255, 0.74);
+
+}
+
+.img4{
+    width: 210px;
+    height: 400px;
+    background-color: rgba(39, 38, 38, 0.144);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-color: rgba(220, 20, 60, 0.534);
+    border-style: solid;
+    border-width: 2px;
+    margin-left: 20px;
+}
+.img4:hover{
+    border-color: rgba(240, 248, 255, 0.74);
+
+}
+.img5{
+    width: 210px;
+    height: 400px;
+    background-color: rgba(39, 38, 38, 0.144);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-color: rgba(220, 20, 60, 0.534);
+    border-style: solid;
+    border-width: 2px;
+    margin-left: 20px;
+}
+.img5:hover{
+    border-color: rgba(240, 248, 255, 0.74);
+
+}
+
+
+
+.ofertas{
+    width: 100%;
+    background-color: rgba(10, 10, 10, 0.479);
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-block: 5px;
+}
+.ofertas_para{
+    color:crimson;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.ofertas_para button{
+    color: aqua;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgba(255, 0, 0, 0.774);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 30px;
+    width: 100px;
+    height: 30px;
+}
+.ofertas_para button:hover{
+    color: aliceblue;
+    background-color: crimson;
+}
+.of p{
+    color: antiquewhite;
+}
+.verMas{
+    margin-left: 50px;
+}
+.btnoferta{
+    width: 100px;
+    height: 20px;
+    color:aqua;
+    background-color: crimson;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-color: none;
+}
+.btnoferta:hover{
+    background-color: aqua;
+    color: crimson;
+}
+/*tienda de artefectos solo parat ti */
+.tienda_de_artefactos{
+    background-color: 0000;
+}
+
+.tienda_de_artefactos{
+    color:crimson;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.tienda_de_artefactos button{
+    color: aqua;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgba(255, 0, 0, 0.774);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 30px;
+    width: 100px;
+    height: 30px;
+}
+.tienda_de_artefactos button:hover{
+    color: aliceblue;
+    background-color: crimson;
+}
+
+
+
+
+
+
+
+
